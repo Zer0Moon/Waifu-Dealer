@@ -1,3 +1,7 @@
+//Done by: Zer0Moon
+//Just learning a bit about NodeJS
+
+
 const fetch = (url) => import('node-fetch').then(({default: fetch}) => fetch(url));
 const {Client, GatewayIntentBits, EmbedBuilder, PermissionsBitField, Permissions} = require("discord.js");
 const client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]});
